@@ -9,7 +9,7 @@ filename = "/home/pi/GeorgeBeeWell/temperature.txt" #Dateiname fuer Daten
 #2019-06-11; 17:56:53; 22.12
 
 print("Bot started")
-updater = Updater(token="846944975:AAFPYcYDD6FhB8mIdQp3vck2tkHj1Y4O8nQ", use_context=True)
+updater = Updater(token="YOUR-TELEGRAM-BOT-TOKEN", use_context=True)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",level=logging.INFO)
