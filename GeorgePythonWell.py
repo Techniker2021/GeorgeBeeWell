@@ -16,8 +16,8 @@ messwert = 999
 msgTime = 0
 filename = 'temperature.txt' #Dateiname fuer Daten
 
-ttn_app_id         = "george_beewell"
-ttn_access_key     = "ttn-account-v2.5qJ877-eemTyjsub2GmKLzfWeJeNB0ja-96Oqq9KSKI"
+ttn_app_id         = "YOUR-TTN-APP-ID"
+ttn_access_key     = "YOUR-TTN-ACCESS-KEY"
 
 ###########################################################
 #Ab hier ttn 2 mqtt 2 file
