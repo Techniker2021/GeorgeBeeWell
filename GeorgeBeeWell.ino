@@ -13,9 +13,8 @@
 BeeHive BurkhardsBienen = BeeHive();
 LoRaModem modem(SerialLoRa);
 
-const char* appEui = "70B3D57ED00186CB";					//ID-Number of TTN-Application
-const char* appKey = "7C7564959271A775F732953DDBA4CDEE";	//Burkhard MKRWAN 1300
-//const char* appKey = "E7FF36E788DD93F9A1A382927BF5047A";	//Dario MKRWAN 1300
+const char* appEui = "YOUR-APP-EUI";			//ID-Number of TTN-Application
+const char* appKey = "YOUR-APP-KEY";			//Burkhard MKRWAN 1300
 
 bool modemBeginState = false;					//debug for LoRa-Modem-Start
 bool OTAAState = false;							//debug state for OTAA (Over-The-Air-Authentication)
